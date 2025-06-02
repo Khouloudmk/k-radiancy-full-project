@@ -1,4 +1,3 @@
-K-Radiancy App
 K-Radiancy is a full-featured e-commerce web application dedicated to offering authentic Korean skincare products. Built with the MERN stack (MongoDB, Express, React, Node.js), it provides users with a smooth and responsive shopping experience, secure transactions, and intuitive UI.
 
 🎯 Project Purpose
