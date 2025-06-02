@@ -22,6 +22,7 @@ React – Building dynamic, component-based UI
 Redux – Managing global state for user/cart/order
 Axios – Handling API requests to backend
 React Router – Page routing and navigation
+
 Backend:
 Node.js & Express – Building REST APIs and server logic
 MongoDB – Storing products, users, orders
@@ -49,8 +50,8 @@ CLOUDINARY_CLOUD_NAME=your_CLOUD_NAME
 CLOUDINARY_API_KEY=your_CLOUDINARY_API_KEY
 CLOUDINARY_API_SECRET=your_CLOUDINARY_API_SECRET
 PORT=5000
-Start the backend server:
 
+Start the backend server:
 nodemon  or node server.js
 
 Frontend Setup
