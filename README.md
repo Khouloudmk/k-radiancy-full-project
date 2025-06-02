@@ -7,6 +7,7 @@ The K-Radiancy App aims to make the best Korean skincare brands easily accessibl
 Offering a reliable, user-friendly platform for browsing and purchasing products.
 Providing secure authentication and user data management.
 Enabling order tracking and payment handling in a professional, scalable architecture.
+
 ✨ Features
 User registration and authentication
 Product listing, search, and detailed views
