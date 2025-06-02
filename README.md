@@ -8,72 +8,103 @@ Providing secure authentication and user data management.
 Enabling order tracking and payment handling in a professional, scalable architecture.
 
 ✨ Features
-User registration and authentication
 
-Product listing, search, and detailed views
+-User registration and authentication
 
-Add to cart and cart preview
+-Product listing, search, and detailed views
 
-Checkout with payment selection
+-Add to cart and cart preview
 
-Order placement and history view
+-Checkout with payment selection
+
+-Order placement and history view
 
 Admin dashboard for product/user/order management
 
 🛠️ Technologies Used
+
 Frontend:
+
 React – Building dynamic, component-based UI
+
 Redux – Managing global state for user/cart/order
+
 Axios – Handling API requests to backend
+
 React Router – Page routing and navigation
 
 Backend:
+
 Node.js & Express – Building REST APIs and server logic
+
 MongoDB – Storing products, users, orders
+
 Mongoose – ODM to interact with MongoDB
+
 dotenv – Manage environment variables
+
 cors & morgan – Enable cross-origin requests & logging
+
 Authentication & Security
+
 bcryptjs – Password hashing
+
 jsonwebtoken (JWT) – User authentication tokens
+
 express-async-handler – Simplify error handling in async routes
 
 📦 Installation Guide
+
 Backend Setup
+
 Navigate to the backend folder:
 
 cd backend
+
 Install dependencies:
 
 npm install
+
 Create a .env file and add the following:
 
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
+
 CLOUDINARY_CLOUD_NAME=your_CLOUD_NAME
+
 CLOUDINARY_API_KEY=your_CLOUDINARY_API_KEY
+
 CLOUDINARY_API_SECRET=your_CLOUDINARY_API_SECRET
+
 PORT=5000
 
 Start the backend server:
+
 nodemon  or node server.js
 
 Frontend Setup
+
 Navigate to my-app folder:
 
 cd my-app
+
 Install dependencies:
 
 npm install
+
 Start the frontend:
 
 npm start
 
 📦 Project Dependencies Overview
+
 This document lists and explains all the major dependencies used in the frontend and backend of this project.
 
 🖥️ my-app (Frontend) Dependencies (React)
+
 Package	Description
+
 @fortawesome/fontawesome-svg-core	Core utilities for FontAwesome icons.
 @fortawesome/free-regular-svg-icons	Regular style icons (e.g., outlined) from FontAwesome.
 @fortawesome/free-solid-svg-icons	Solid style icons (e.g., filled) from FontAwesome.
@@ -95,7 +126,9 @@ react-google-charts	React wrapper for rendering Google Charts.
 web-vitals	Collects and reports performance metrics (e.g., LCP, FID).
 
 🛠️ Backend Dependencies (Node.js/Express)
+
 Package	Description
+
 bcryptjs	Hash and compare passwords securely.
 cloudinary	Upload, store, and manage images in the cloud.
 dotenv	Load environment variables from .env into process.env.
@@ -107,9 +140,11 @@ nodemailer	Send emails from the backend (SMTP, Gmail, etc.).
 nodemon	Development tool that restarts server on file changes automatically.
 
 📁 Folder Structure (Suggested)
+
 k-radiancy-mern-app/ │ ├── my-app/ # React Frontend │ └── package.json # Frontend dependencies │ ├── backend/ # Express server │ └── package.json # Backend dependencies │ └── README.md # This file
 
 📢 Project Presentation
+
 Good morning/afternoon everyone,
 
 I’m thrilled to present K-Radiancy, a modern e-commerce application focused exclusively on Korean skincare. This project was created to meet the growing demand for high-quality K-beauty products with a reliable, accessible platform that puts the user experience first.
