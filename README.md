@@ -9,10 +9,15 @@ Enabling order tracking and payment handling in a professional, scalable archite
 
 ✨ Features
 User registration and authentication
+
 Product listing, search, and detailed views
+
 Add to cart and cart preview
+
 Checkout with payment selection
+
 Order placement and history view
+
 Admin dashboard for product/user/order management
 
 🛠️ Technologies Used
