@@ -24,7 +24,7 @@ The K-Radiancy App aims to make the best Korean skincare brands easily accessibl
 ### Frontend
 
 * **React** – Building dynamic, component-based UI
-* **Redux** – Managing global state for user/cart/order
+* **Context API** – Managing global state for user/cart/order
 * **Axios** – Handling API requests to backend
 * **React Router** – Page routing and navigation
 
